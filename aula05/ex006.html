@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basico de Tabelas</title>
+    <style>
+    table,th,td{
+        border: 1px solid #000000;
+    }
+    th,td{
+        padding: 7px;
+    }
+    .nome{
+        background-color: red;
+    }
+    .email{
+        background-color: green;
+    }
+    .telefone{
+        background-color: blue;
+    }
+    .cargo{
+        background-color: yellow;
+    }
+    </style>
+</head>
+<body>
+    
+    <h1>Conceito de Tabelas.</h1>
+
+    <table>
+        <!--table: tag para criação de tableas.-->
+        <caption>Cadastro de Clientes</caption>
+        <colgroup>
+            <!--colgrup: permite formatar as tabelas indivigualmente.-->
+            <col class="nome">
+            <col class="email">
+            <col class="telefone">
+            <col class="cargo"> 
+            <!--col: permite identificar elementos na tabela.-->
+        </colgroup>
+        <thead>
+            <!--Thead: identifca como cabeçalho na tabela-->
+            <tr>
+                <!--tr: linha horizontal,-->
+                <th>Nome:</th>
+                <th>Email:</th>
+                <th>Telefone:</th>
+                <th>Cargo:</th>
+                <!--th: corresponde a um titulo dentro de uma tabela.-->
+            </tr>
+        </thead>
+        <tbody>
+            <!--Tbody: corresponde ao corpo da tabela.-->
+            <tr>
+                <td>Rodrigo</td>
+                <td>rodrigo@gmail.com</td>
+                <td>(45) 99344-4344</td>
+                <td rowspan="2">Desenvolvedor web</td>
+                <!--rowspan: mescla linhas-->
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>maria@gmail.com</td>
+                <td>(45) 99366-9347</td>
+                <!--td: corresponde a um titulo.-->
+            </tr>
+        </tbody>
+        <tfoot>
+            <!--Tfoot: roda pé da tabela.-->
+            <tr>
+                <td colspan="4">Total:2</td>
+                <!--colspan: mescla as colunas.-->
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

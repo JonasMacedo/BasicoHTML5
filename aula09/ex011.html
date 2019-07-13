@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conceito de videos.</title>
+</head>
+<body>
+    
+    <h1>Conceito de videos em HTML5 com legenda.</h1>
+
+    <video controls width="700" height="450">
+        <source src="Homem na Arena.mp4" type="video/mp4">
+        <track kind="subtitles" srclang="pt-br" label="PT-BR" src="legendas.vtt"></track>
+        <!-- track: tag responsavel por permitir formatão no video.
+            kink: atributo da tag permite a inserção de legenda.
+            srclang: atributo que identifica a linguagem.
+            label: atributo que identifica a linguagem no menu de opções. 
+            src: atributo que identifica o caminho do arquivo da legenda.
+        -->
+    </video>
+
+</body>
+</html>
