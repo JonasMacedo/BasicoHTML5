@@ -8,16 +8,31 @@
 </head>
 <body>
     <h1>Conceito de Formularios.</h1>
-    <form id='formulario-cad' action="cadastro.php" method="POST" enctype="">
+    <!--Criando inputs fora da tag form, e vinculando a tag form corretamente.-->
+  
+    <form id='formulario-cad' method="POST" enctype="">
+      <!--action: atributo que envia as informações automaticas, ao usar o input com submit.-->
         <fieldset>
             <legend>Formulario</legend>
             Email: <br>
             <input type="email" name="email" id="email" required>
-            <input type="submit" nome='cadastrar' value="Cadastrar">
+            <input type="submit" nome='cadastrar' value="Cadastrar" formaction="cadastrar.php" >
+            <!--formaction: atributo que permite o envio de informações, para outra aplicação.-->
+            <input type="submit" name="enviar-por-email" formaction="enviarEmail.php" value="Enviar">
+
+            
         </fieldset>
     </form>
-    Nome: <br>
-    <input type="text" name="nome" id="nome" form="formulario-cad">
-    <!--form: atributo fora da tag form, mas que faz referencia a ela.-->
+    <br>
+    <fieldset>
+        Nome: <br>
+        <input type="text" name="nome" id="nome" form="formulario-cad">
+        <!--form: atributo no input que fora da tag form, faz referencia a um FORMULARIO, 
+            atraves do "ID" da tag form desejada. -->
+        <input type="button" value="Enviar" formmethod="GET">
+        <!--formmethod: atributo permite diferenciar a forma de envio de informações,
+            sendo uma por URL ou encapsulamento.
+        -->
+    </fieldset>
 </body>
 </html>
