@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios Parte05</title>
+</head>
+<body>
+    
+    <h1>Atributos de Formularios.</h1>
+    <form action="cadastro.php" method="GET">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+                Nome: <br> <input type="text" name="nome" id="nome" autofocus maxlength="5"><br>
+                Sexo: <br> 
+                <input type="radio" name="sex" id="rfem" value="feminino">Feminino 
+                <input type="radio" name="sex" id="rmasc" value="masculino">Masculino<br>
+                Cores: <br>
+                <input type="checkbox" name="cores" id="corVerde" value="verde">Verde
+                <input type="checkbox" name="cores" id="corAzul" value="azul" checked>Azul
+                <input type="checkbox" name="cores" id="corAmarelo" value="amarelo">Amarelo<br>
+                Senha: <br> <input type="password" name="senha" id="senha"><br>
+                Email: <br> <input type="email" name="email" id="eamil" required><br>
+                Quantidade: <br>
+                <input type="number" name="quant" id="quantidade" min="0" max="500" step="10"><br>
+                <!--min/max: atributos que limita o input number.
+                    step: atributo que limita os passos de incrementação.
+                -->
+                <input type="range" name="quant" id="quant" min="0"><br>
+                Cores: <br>
+                <input type="color" name="cor" id="cor"><br>
+                <input type="submit" name="btnEnviar" value="Enviar">
+        </fieldset>
+    </form>
+ 
+</body>
+</html>

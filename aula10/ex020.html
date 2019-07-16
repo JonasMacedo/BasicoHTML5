@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios Parte09</title>
+</head>
+<body>
+    
+    <h1>Atributos de Formularios.</h1>
+    <form action="cadastro.php" method="GET">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+                Nome: <br> <input type="text" name="nome" id="nome" autofocus maxlength="5"><br>
+                Sexo: <br> 
+                <input type="radio" name="sex" id="rfem" value="feminino">Feminino 
+                <input type="radio" name="sex" id="rmasc" value="masculino">Masculino<br>
+                Cores: <br>
+                <input type="checkbox" name="cores" id="corVerde" value="verde">Verde
+                <input type="checkbox" name="cores" id="corAzul" value="azul" checked>Azul
+                <input type="checkbox" name="cores" id="corAmarelo" value="amarelo">Amarelo<br>
+                Senha: <br> <input type="password" name="senha" id="senha"><br>
+                Email: <br> <input type="email" name="email" id="eamil" autocomplete="on" placeholder="SeuEmail@...." required><br>
+                Quantidade: <br>
+                <input type="number" name="quant" id="quantidade" min="0" max="500" step="10"><br>
+                <input type="range" name="quant" id="quant" min="0"><br>
+                Cores: <br>
+                <input type="color" name="cor" id="cor"><br>
+                Imagem: <br>
+                <input type="file" name="" id=""><br>
+                <input type="hidden" name="id"><br>
+                Data: <br>
+                <input type="date" name="data" id="data" min="2000-12-31" max="2015-12-20"><br>
+                <br> Hora: <br>
+                <input type="time" name="hora" id="hora"><br>
+                <br>Mês e ano: <br>
+                <input type="month" name="mes" id="mes"><br>
+                <br>Semana: <br>
+                <input type="week" name="semana" id="semana"><br>
+                <br>Data e hora: <br>
+                <input type="datetime-local" name="data-hora" id="data-hora"><br>
+                <br> URL>
+                <input type="url" name="site" id="site"><br>
+                <br> Search: <br>
+                <input type="search" name="pesqisa" id="pequisa"><br>
+                <br> Telefone: <br>
+                <input type="tel" name="telefone" id="telefone"><br>
+                <br>Mensagem: <br>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+
+                <br>Seleção:
+                <select name="viculo">
+                    <!--select: tag permite criar seleções.-->
+                    <optgroup label="Carros">
+                        <!--optgroup: tag permite criar subgrupos-->
+                        <option value="camaro">Camaro</option>
+                        <option value="opala" selected>Opala</option>
+                        <!--selected: atributo de autoseleção.-->
+                        <option value="hilux">Hilux</option>
+                        <option value="mustang">Mustang</option>
+                        <option value="fordgt">FordGT</option>
+                        <!--option: tag permite criar items em um select-->
+                    </optgroup>
+                    <optgroup label="Motos">
+                        <option value="pop100">Pop 100</option>
+                        <option value="suzuki">Suzuki</option>
+                        <option value="kwasaki">Kwaski Ninja</option>
+                        <option value="hornet">Hornet</option>
+                    </optgroup>
+                </select>
+                <br><input type="submit" name="btnEnviar" value="Enviar">
+        </fieldset>
+    </form>
+ 
+</body>
+</html>

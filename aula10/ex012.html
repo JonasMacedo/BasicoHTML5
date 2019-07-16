@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conceitos de Formularios</title>
+</head>
+<body>
+    
+    <h1>Conceitos de Formularios.</h1>
+    <form action="cadastro.php" method="GET">
+        <!--form: tag resposavel por renderizar o formulario.
+            action: atributo que informa a pagina que vai receber as informações.
+            method: atributo que define o metodo de envio que pode ser Get ou Post.
+            Get: envia as informções pela url, o usuario pode ver as informações.
+            Post: envia as informações encapsuladas, sem que o usario veja.
+        -->
+        <fieldset>
+            <!--fieldset: tag permite agrupar os campos.-->
+            <legend>Informações Pessoais</legend>
+                <!--legend: tag que permite criar uma legenda.-->
+                Nome: <br> <input type="text" name="nome" id="nome"><br>
+                Senha: <br> <input type="password" name="senha" id="senha"><br>
+                <input type="submit" name="btnEnviar" value="Enviar">
+        </fieldset>
+    </form>
+
+</body>
+</html>
