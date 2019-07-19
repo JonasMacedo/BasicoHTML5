@@ -1,0 +1,7 @@
+h1,h2,p{
+    /*Agrupamento de seletores, basta apenas adicionar os elementos
+     na declaração separando eles por virugalas ","
+     */
+    color: red;
+    text-align: center;
+}
