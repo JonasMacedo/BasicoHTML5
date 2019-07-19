@@ -1,0 +1,36 @@
+/* Tipos de seletores:
+    1-Seletor universal = *{}
+    2-Seletor Tag = h1{}
+    3-Seletor de Tipos = [type=text]
+*/
+
+*{
+    /* Seletor universal:
+     Serve para aplicar regras a todos os item do HTML.
+     Utilizado para comportamento inicial, 
+    */
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+
+h1{
+    /* Seletor de tag:
+     Serve para aplicar regras de estilização, 
+     sobre determinada tag especifica.
+    */
+    color: blue;
+    font-size: 42px;
+}
+input[type="text"]{
+    /*Seletor de tipo:
+     Serve para especificar a estilização em deteriminados elementos,
+     quando existem varias tags do mesmo genero.
+    */
+    width: 200px;
+    background-color: #cccccc;
+}
+input[type="submit"]{
+    background-color: black;
+    color: white;   
+}
