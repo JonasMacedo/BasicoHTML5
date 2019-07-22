@@ -1,0 +1,12 @@
+/*No CSS3 podemos usar mais do que apenas as tags, podemos criar nosso elementos
+e definir as regras css, para eles por isso tem os IDs e as Classes.
+    -Class: A mesma clase pode ser usada por mais de um elemento.
+    -ID: Pode ser usado por apenas um elemento.
+*/
+
+/*Classes: São identificadas pelo uso do PONTO "." */
+.texto-principal{color: red; text-align: center;}
+.fundo-principal{background-color: yellow; padding: 20px;}
+
+/*ID: Os IDs são identificados pelo uso do SUSTENIDO"#" */
+#conteudo{ background-color: blue; color: white; padding: 12px;}
