@@ -1,0 +1,41 @@
+/* Margens:
+    -Padding: trata-se de um espaçamento interno, entre o conteudo interno e as bordas.
+    -Margin: trata-se dos espaçamento externo, entre o as bordas e demais conteudos.
+    -Pode ser aplicada individualmente ou em conjunto de uma unica vez, dependende 
+    da situação a qual for necessaria.
+*/
+#exemplo{
+    /*Aplicando margens internas individuais.*/
+    background-color: purple;
+    color: yellow;
+    font-family: sans-serif;
+    min-width: 35%;
+    padding-top: 10px;/*Espaçamento da margem superior interna.*/
+    padding-right: 20px;/*Espaçamento da margem direita interna.*/
+    padding-bottom: 30px; /*Espaçamento da margem inferior interna.*/
+    padding-left: 30px;/*Espaçamento da margem equerda interna.*/
+}
+.segundo-exemplo{
+    /*Aplicando margens internas em conjunto.*/
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px 20px 30px 30px;/*padding: superior -> direita -> base -> esquerda. */
+    min-width: 35%;
+}
+#terceiro-exemplo{
+    /*Aplicando margens individuais externa.*/
+    background-color: orangered;
+    color: black;
+    font-family: 'Lucida Sans';
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+#quarto-exemplo{
+    /*Aplicando margens externas em conjunto.*/
+    background-color:yellow;
+    color: darkgreen;
+    font-family: 'Lucida Sans';
+    margin: 20px 30px 20px 40px;/*margin: superior -> direita -> base -> esquerda. */
+}
