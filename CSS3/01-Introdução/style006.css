@@ -1,0 +1,18 @@
+/*Conceito de dimencionamento.
+    -Se for posto em ecesso ira sobrar em tela, se a dimensão posta for menor ira perder conteudo.
+    -Pode se fazer o dimencionamento usando a mediçao em pixels ou porcentagem, porcentagem é mais resposivo.
+    - Pode se determinar uma dimencionamento maximo e minimo.
+*/
+#conteudo{
+    background-color: green; 
+    color: yellow; 
+    padding: 20px;
+    width: 80%; /*Alterando o comprimento.*/
+    height: 150px;/*Alterando a altura.*/
+}
+.paragrafo{ 
+    background-color: purple;
+    color: yellow;
+    min-width: 50%; /*Definindo largura minima.*/
+    max-height: 145px;
+}
