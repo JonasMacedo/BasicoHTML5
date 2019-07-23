@@ -1,0 +1,24 @@
+/*Conceito de textos.
+    -text-align: Responsavel por realizar o alinhamento do texto na pagina.
+    -text-decoration: Responsavel por trabalhar com linhas, como riscar,sublinhar e linha superior.
+    -text-transforme: Responsavel por deixar as letras maiusculas ou minusculas.
+*/
+p{
+    color: red;
+    text-transform: uppercase;/*Conteudo do texto maiusculo.*/
+}
+#exemplo02{
+    color: purple;
+    text-transform: capitalize;/*Texto com inicias maiusculas.*/
+}
+h2{
+    text-align: left;
+    text-decoration: underline;/*Sublinhando o texto.*/
+}
+h3{
+    text-align: right;
+    text-decoration: overline;/*Linha sobre o texto.*/
+}
+h4{text-align: center;
+    text-decoration: line-through;/*Riscando o texto.*/
+}
