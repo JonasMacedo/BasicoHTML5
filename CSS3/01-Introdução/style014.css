@@ -1,0 +1,12 @@
+/*  Fontes.
+    - font-family: Defini um conjunto de fontes a ser usado pelo browser, 
+    sendo sempre 3 fontes, caso uma fonte não seja disponivel, passa para 
+    uma das outras definidas.
+    - font-variant: Defini o tipo formatação do paragrafo.
+    - font-size: Defini o tamanho da fonte do texto.
+*/
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-variant: small-caps;
+    font-size: 16px;
+}
