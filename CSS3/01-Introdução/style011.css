@@ -1,0 +1,17 @@
+/* OverFlow:
+    Alguns conteudos podem vir do banco de dados, 
+    maiores do que o elemento em que foi destinado a permanecer, 
+    nestes cassos é indicado a usar o OverFlow.
+    - Visible: Torna todo o conteudo visivel.
+    - Hidden: Esconde o conteudo que ultrapasar o elemento. 
+    - Scroll: Adicona barras de rolagem ao elemento.
+    - Auto: Adiciona barras quando necessario.
+*/
+#conteudo{
+    background-color: darkgray;
+    color: red;
+    font-style: oblique;
+    width: 300px;
+    height: 95px;
+    overflow: auto;
+}

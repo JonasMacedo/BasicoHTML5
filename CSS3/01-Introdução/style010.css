@@ -1,0 +1,18 @@
+/*Conceito de Box Sizing e Shadow.
+    visa corrigir falhas na estilização de imagens, relacionados a comprimentos.
+    -box-sizing: Responsavel por organizar a dimenção de forma correta. 
+    -box-shadow: Responsavel por criar uma caixa de sombreamento.
+*/
+
+*{
+    /*Forma correta de se usar o box-sizing é com o seletor universal.*/
+    box-sizing: border-box;
+}
+
+#conteudo{
+    background-color: red;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px green; 
+    /*box-shadow: posiçãoOrizontal -> posiçãoVertical-> desfoque -> Cor */
+}

@@ -1,0 +1,13 @@
+/*  FontFace:
+    Usado para se facilitar o uso de fontes externas, 
+    vinda de outros sites.
+*/
+@font-face{
+    font-family: NomeDaFonte;
+    src: url(NomeDaFonte.woff);/*Especifica o caminho do arquivo.*/
+}
+
+p{
+    font-family: NomeDaFonte;/*Usando a nova fonte inserida.*/
+    font-size: 21px;
+}

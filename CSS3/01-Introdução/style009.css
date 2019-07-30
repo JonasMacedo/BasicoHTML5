@@ -1,0 +1,18 @@
+/*Conceito de textos.
+    -text-indent: Responsavel por criar um recuo na primeira linha do texto.
+    -line-heigth: Responsavel por definir a altura da linhas no texto.
+    -direction: Responsavel por definir a direção do texto.
+    -letter-spacing: Responsavel por definir o espaçamento entre as letras.
+    -text-shadow: Definindo sombreamento no texto.
+*/
+p{
+    color: red;
+    text-align: justify;
+    text-indent: 20px; /*Criando recuo no texto.*/
+    line-height: 15px;/*Definido altura das linhas do texto.*/
+    direction: ltr;/*Definido a direção do texto.*/
+    letter-spacing: 2px;/*Definido o espaçamento entre as letras.*/
+    word-spacing: -3px;/*Definindo o espaçamento entre as palavras.*/
+    text-shadow: 1px 1px 2px black;/*Definindo sombreamento no texto.*/
+    /*text-shadow: posiçãoOrizontal -> posiçãoVertical-> desfoque -> corSombra;*/
+}

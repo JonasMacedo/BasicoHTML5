@@ -1,0 +1,25 @@
+/* border-radius:
+    Estilização das bordas de um elemento.
+    Forma simplificada:
+    - border-radius: alterando todas as bordas com o mesmo valor.
+
+    Trabalhando de forma individual com o border-radius:
+    - border-top-left-radius: Borda superior esquerda.
+    -
+*/
+#bloco{
+    background-color: gray;
+    color: red;
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    font-size: 25px;
+    width: 380px;
+    height: 150px;
+    /*border-radius: 20px; Aplicando em todas os bordas.*/
+    /*border-radius: 20px 50px; Aplicando em 2 lados das bordas.*/
+    /*border-radius: 20px 50px 100px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
