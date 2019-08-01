@@ -1,0 +1,23 @@
+/*Position
+    - Relative: Indica qual o elemento pai, os demais elementos contidos
+     dentro deste elemento, irão respeitar o posicionamento do elemento pai.
+    - Absolute: Permite posicionar o elemento, em qualquer lugar 
+    da pagina conforme as coordenadas.
+    - left,top,right,bottom: São coordenadas, que perimite o posicionar o texto.
+    - Fixed: Permite que o lemento fique fixo na pagina, indiferente ao uso 
+    das barras de rolagem e da posição do elemento pai. 
+*/
+
+#conteudo{
+    background-color: red;
+    width: 600px;
+    height: 550px;
+    position: relative;/*Definindo elemento PAI.*/
+}
+#texto{
+    background-color: green;
+    width: 500px;
+    position: absolute;
+    left: 5px;/* Definindo coordenadas.*/
+    top: 120px;
+}
