@@ -1,0 +1,33 @@
+/*  Border:
+    Aplica diferentes tipos de bordas para elementos, tambem permite 
+    as demais configurações como altura, largura, cor e etc.
+    - dotted: estilo de borda pontilhada.
+    - dashed: estlido de borda tracejada.
+    - solid: estilo de borda em linha.
+    - double: estilo de borda de linha dupla.
+    - groove: estilo de borda acizentada.
+    - ridge: estilo de borda branca.
+    - inset: borda com efeito de profundidade.
+    - outset: borda com efeito de eleveção.
+*/
+
+#exemplo{
+    background-color: red;   
+    /*Estilizando borda por elemento.*/ 
+    border-style: solid;
+    border-width: 5px;/*Definindo largura da borda.*/
+    border-color: green;
+    border: double 15px yellow;
+}
+#exemplo2{
+    background-color: purple;
+    /*Estilizando todos os elementos da borda estenograficamente.*/
+    border: double 15px yellow;
+    /*Usando borda externa com outline.*/
+    outline: dotted 5px green; 
+}
+/* Outline:
+    Aplica diferentes tipos de bordas para elementos, de forma esterna,
+    tambem permite as demais configurações como altura, largura, cor e etc. 
+    Mas não permite a configurações de lados individuais.
+*/

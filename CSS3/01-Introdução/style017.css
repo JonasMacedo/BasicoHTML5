@@ -1,0 +1,21 @@
+/* Float.
+    -Trata-se de um atributo, responsavel por fazer com que elemento 
+    flutue em determinada parte da tela do usuario.
+*/
+#base{
+    background-color: green;
+    width: 600px;
+    height: 600px;
+}
+#esquerda{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+#direita{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
