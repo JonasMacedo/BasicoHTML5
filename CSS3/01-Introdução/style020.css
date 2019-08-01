@@ -1,0 +1,51 @@
+/*  Trasition:
+    Utilizado para suavizar as alterações feitas pelas pseudos classes.
+    - transition-property: Declarando qual a transição sera suavisada.
+    - transition-duration: Defini o tempo de duração da transição.
+    - transition-timing-function: configura o ritimo da transição.
+*/
+#exemplo{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition-property: width;/*Declarando qual a transição sera suavisada*/
+    transition-duration: 2s;/*Definindo o tempo da transição.*/
+    transition-timing-function: ease;/*Definindo o ritimo da transição.*/
+    /*transition-delay: 2s;  /*Define o tempo de esepra iniciar a transição*/
+}
+
+/* Criando uma pseudo classe, para controlar o estado do elemento 
+    quando o mouse estiver sobre ele.
+*/
+#exemplo:hover{
+    width: 350px;
+    height: 350px;
+    background-color: blue;
+}
+
+#exemplo2{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+#exemplo2:hover{
+    width: 600px;
+    height: 350px;
+    color: red;
+    background-color: black;
+    /*Uso estenografico.*/
+    transition: width 2s linear, height 2s linear 2s;/*Suavisando duas transições*/
+}
+#exemplo3{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+}
+#exemplo3:hover{
+    width: 300px;
+    height: 300px;
+    color: white;
+    background-color: blue;
+    /*Aplicando efeteito de transição em tdodo o elemento.*/
+    transition: all 2s linear;/*Os lementos agem de forma simultanea.*/
+}
