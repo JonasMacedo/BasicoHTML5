@@ -1,0 +1,13 @@
+/* Background:
+    - background-color: altera a cor de fundo.
+    - background-image: url(CaminhoDaImagem) adiciona uma imagem como plano de fundo.
+    - background-repeat: configura o numero repetição das imagens no plano de fundo.
+    - background-position: Configura a posição de imagens e demais elemento de plano de fundo.
+*/
+
+body{
+    background-color: red;
+    /*background-image: url()*/
+    /*background-repeat: no-repeat*/ 
+    /*background-position: left bottom;*/
+}
