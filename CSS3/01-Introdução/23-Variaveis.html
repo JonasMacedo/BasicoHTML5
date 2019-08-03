@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* Criando variaveis. 
+            - Variaveis no CSS3 devem ser declaradas dentro de um SELETOR, 
+            CSS que defina seu escopo. 
+            - Declarar variaveis é simples "--nomeVariavel:".
+            - Depois apenas atribua as variaveis aos elementos css, usando var( --nomeVariavel).
+        */
+
+        :root{/*Criando seletor, para declarar as variavies CSS.*/
+            --bg-color: blue;
+            --CorTexto: #fff;
+            --espacamento: 20px;
+        }
+
+        #div1{
+            background-color: var(--bg-color);
+            color: var(--CorTexto);
+            padding: var(--espacamento);
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Conceito de variaveis no CSS3.</h1>
+
+    <p>Variaveis no CSS3 devem ser declaradas dentro de um seletor 
+        CSS que define seu escopo.</p>
+
+    <div id="div1">
+        <p>Testo de teste 01.</p>
+    </div>
+
+    <div id="div2">
+        <p>Testo de teste 02.</p>
+     </div>
+
+    <div id="div3">
+        <p>Testo de teste 03.</p>
+     </div>
+</body>
+</html>
