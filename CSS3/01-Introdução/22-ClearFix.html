@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clearfix.</title>
+    <style>
+        .container{
+            background-color: red;
+            width: 500px;
+            display: table; /*Usado para corrigir prolemas com float.*/
+        }
+        .box1{
+            background-color: green;
+            width: 150px;
+            height: 150px;
+            float: left;
+        }
+        .box2{
+            background-color: blue;
+            width: 150px;
+            height: 150px;
+            float: right;
+        }
+        .container::before,.container::after{/*declaração da ClearFix.*/
+            content:'';
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Conceito de uso do Clearfix.</h1>
+    <p>Tecnica para reparar problemas pelo uso do float.</p>
+    <br>
+    <div class="container">
+        <div class="box1">
+        </div>
+
+        <div class="box2">
+        </div>
+    </div>
+
+</body>
+</html>
