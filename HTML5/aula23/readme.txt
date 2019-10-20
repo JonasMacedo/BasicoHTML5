@@ -1,0 +1,1 @@
+Este projeto é apenas para a aplicação correta da semantica em um arquivo HTML.
