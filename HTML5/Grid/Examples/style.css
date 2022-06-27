@@ -1,0 +1,15 @@
+h2{
+    text-align: center;
+}
+
+.item{
+    
+    background:#535050;
+
+    margin-bottom: 20px;
+    padding: 10px;
+
+    border: 1px solid red;
+    border-radius: 4px;
+
+}
