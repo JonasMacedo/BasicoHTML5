@@ -9,8 +9,9 @@ h1{
 
 .card_itens{
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Definindo a quantidade de colunas */
+    grid-template-columns: 300px 300px; 
     gap: 10px;
+    justify-content: end;
 }
 
 .item{
