@@ -9,9 +9,11 @@ h1{
 
 .card_itens{
     display: grid;
+    height: 1100px; /*Aumentado o espaçamento do bloco*/
     grid-template-columns: 300px 300px; 
     gap: 10px;
-    justify-content: end;
+    align-content: center; /*Alinha verticalmente */
+    justify-content: center; /* Alinha horizontalmente*/
 }
 
 .item{
