@@ -12,8 +12,12 @@ h1{
     height: 1100px; /*Aumentado o espaçamento do bloco*/
     grid-template-columns: 300px 300px; 
     gap: 10px;
-    align-content: center; /*Alinha verticalmente */
-    justify-content: center; /* Alinha horizontalmente*/
+
+    /* align-content: start; Alinha verticalmente */
+    /* justify-content: center; Alinha horizontalmente */
+    
+    place-content: stretch center;/* Realiza o alinhamento primeiramente verticalmente depois em horizontal */
+
 }
 
 .item{
