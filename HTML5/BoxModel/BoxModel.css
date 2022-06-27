@@ -1,0 +1,22 @@
+/* *{
+    box-shadow: insert 0 0 0 1px rgba(255, 0, 0, 50%);
+} */
+
+h1 {
+    background: red;
+}
+
+a{
+    /* text-decoration: none; */
+    background: green;
+    color:white;
+    font-size: 27px;
+}
+
+.BoxModel{
+    background: #aaa;
+    padding: 20px;
+    border: 10px solid #84e;
+    color: black;
+    margin: 30px;
+}
