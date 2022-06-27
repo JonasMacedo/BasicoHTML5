@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rascunho</title>
+
+    <link rel="stylesheet" href="style.css" />
+  
+   </head>
+  
+  <body>
+
+    <h1>Curso de HTML</h1>
+
+    <div class="layout">
+      <div>
+        
+        <h2>Fluxo do Layout</h2>
+        <p>O fluxo do layout no HTML ocorre conforme o modo de escrita definido.<br>
+          Por padrão, de cima para baixo da esquerda para a direita.</p>
+        <li>Span</li>
+          <dd>Tag generica que nao possui nenhum estilo pré-difinido/semantica. É equivalente a uma 
+            div, mas sem o display block
+          </dd>
+
+      </div>
+      
+      <br><br>
+
+      <div>
+        
+        <h2>Diplay inline e block</h2>
+        <p>Define como a caixa(BoxModel) irá se comportar.</p>
+
+        <li>Inline</li>
+        <dd>Respeita o fluxo da escrita sem iniciar uma nova linha, não é possivel definir valores 
+          de width, height, margin e etc.<br>É o estilo padrao.
+        </dd>
+        
+        <br>
+
+        <li>Block</li>
+        <dd>Inicia uma nova linha e nao permite que outros elementos sema posicionados em sua linha.
+          <br>Aceita todas as propriedades do box model.
+          <br>Estilo inicial de elemeots como h1, p, div e outros.
+        </dd>
+
+      </div>
+      
+      <br><br>
+
+      <div>
+
+        <h2>None e Inline-block</h2>
+        <li>None</li>
+        <dd>Remove o elemento completamente da tela.</dd>
+        
+        <br>
+
+        <li>Inline-block</li>
+        <dd>O elemento continua inline, mas passa a receber as propriedades do box model.</dd>
+
+      </div>
+
+    </div>
+
+    <div class="vertical">
+      
+      <p>texto puro</p> 
+      <span>Novo testo span</span>
+      <p>Texto em tag P com <span>elemento em tag SPAN</span></p>
+
+    </div>
+    
+    <div class="Bloco01">
+      <h1>H1 Block</h1>
+      <a href="#">Link em inline</a>
+      <span>Span inline</span>
+      <strong>Strong inline</strong>
+      <p> P Block</p> 
+      <p>Texto em tag P block com <span>elemento em inline</span> dentro dele</p>
+    </div>
+
+    <div class="inline">
+      <p>Acesse o link <a href="#">curso</a> </p>
+      <p>Acesse o link curso </p>
+    </div>
+
+  </body>
+</html>

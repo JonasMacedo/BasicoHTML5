@@ -1,0 +1,50 @@
+
+h1, p, span {
+    border: 1px solid red;
+}
+
+.vertical{
+    margin: 15px;
+    writing-mode: vertical-rl;
+}
+
+.Bloco01 {
+    border: 10px solid rgb(89, 2, 129);
+}
+
+.Bloco01 span {
+    border: 3px solid darkorange;
+}
+
+.Bloco01 p span {
+    border: 1px solid seagreen;
+}
+
+.layout {
+    border: 5px solid darkgreen;
+    padding: 15px;
+}
+
+.layout h1, p {
+ border: none;
+}
+
+.inline{
+    margin-top: 10px;
+    padding: 10px;
+    border: 5px solid rgb(248, 2, 2);
+}
+
+.inline span {
+    border: none;
+}
+
+.inline p {
+    border: 3px solid blue;
+}
+
+.inline a {
+    display: inline-block;
+    padding: 20px;
+    border: 3px solid green;
+}

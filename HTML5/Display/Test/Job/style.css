@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial;
+}
+
+h1{
+    display: block;
+    text-align: center;
+}
+
+a{
+    
+    text-decoration: none;
+
+    display: inline-block;
+    background: #febe01;
+    color: #332200;
+    
+    border-radius: 4px;
+    border: none;
+    
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.card_item {
+    
+    display: block;
+    background: black;
+    color: white;
+    
+    border-radius: 4px;
+    margin: 25px;
+    padding: 25px;
+}
+
+.card_item h2{
+    margin: 0px;
+}
+
+.card_item span {
+    color: #febe01;
+}
+
