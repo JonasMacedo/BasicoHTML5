@@ -21,6 +21,15 @@ p,span{
     font-size: 20px;
 }
 
+
+
+.preco{
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+
+}
+
 .comprar{
      
     text-decoration: none;
