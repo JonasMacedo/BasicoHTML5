@@ -7,3 +7,4 @@ https://css-tricks.com/snippets/css/complete-guide-grid/
 Conteudo em portugues:
 https://www.origamid.com/projetos/css-grid-layout-guia-completo/
 
+https://www.origamid.com/projetos/grid/
