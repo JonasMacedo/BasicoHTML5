@@ -1,12 +1,11 @@
 
+/*  Estilo Geral */
+
 body{
     font-family: Arial;
     margin: 40px;
 }
 
-a{
-    margin: 7px;
-}
 
 h1{
     text-align: center;
@@ -21,17 +20,31 @@ p,span{
     font-size: 20px;
 }
 
+img{
+    max-width: 100%;
+    border-radius: 7px;
+}
 
+
+.item{
+    display: grid;
+}
+
+/* Estilo de Itens */
+
+.menu a {
+    margin: 7px; 
+}
 
 .preco{
     background: #ddd;
     padding: 5px 10px;
     border-radius: 4px;
-
+    
 }
 
 .comprar{
-     
+    
     text-decoration: none;
     color: #103;
     
@@ -41,3 +54,5 @@ p,span{
     
     font-size: 20px;
 }
+
+
