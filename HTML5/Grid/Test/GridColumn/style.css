@@ -25,9 +25,22 @@ img{
     border-radius: 7px;
 }
 
+/* Estilo de elementos no Grid */
 
 .item{
-    display: grid;
+    display: grid; /* Os elementos HTML se tornaram elementos do Grid(GridItens) */
+    gap: 20px;
+    grid-template-columns: 1fr 1fr; /* definindo numero de colunas */
+}
+
+.foto{
+  grid-column: 1/3; /* Para a imagem pegar as duas colunas */
+}
+
+.descricao{
+
+    grid-column: 1/-1;
+    /* Para o a descricao pegar todas as colunas */
 }
 
 /* Estilo de Itens */
@@ -54,5 +67,4 @@ img{
     
     font-size: 20px;
 }
-
 
