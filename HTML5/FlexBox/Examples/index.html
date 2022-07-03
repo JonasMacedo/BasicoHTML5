@@ -9,5 +9,41 @@
   </head>
   <body>
 
+    <h1>FlexBox</h1>
+
+    <li>Diplay: flex</li>
+    <dd>Os filhos passam a ter um tamanho flexivel e ficam um ao lado do outro.</dd>
+    <br>
+
+    <li>Flex-wrap: wrap</li>
+    <dd>Caso não caiba todos os elementos em uma mesma linha, quebre para a proxima</dd>
+    <br>
+
+    <li>Gap</li>
+    <dd>Define uma distancia entre os elementos</dd>
+
+    <h2>Align e Justify</h2>
+
+    <p> O Align e Justify funcionam da mesma forma que no CSS Grid Layout. <br> 
+    Essas propriedades só funcionamn se existir espaço entre os elementos.</p>
+
+    <h2>Flex</h2>
+    <li>flex-grow: 1</li>
+    <dd> Se esse elemento deve crescer para ocupar o espaço vazio. <br> 
+    O "0" impede o crescimento, valores maiores que "0" funcionam como a unidade "FR" do CSS Grid.</dd>
+    <br>
+    <li>flex-basis: 200px</li>
+    <dd>Valor inical antes de distribuir o espaço em branco.</dd>
+    <br>
+    
+    <li>flex-shrink: 0</li>
+    <dd>Caso exista um valor de base, o flex-shrink irá determinar se esse valor pode ser reduzido ou não. <br>
+        O "0" significa que ele não pode ser reduzido.</dd>
+    <br>
+
+    <h2>Flex vs Grid</h2>
+    <p> Use ambos no seu layout, eles resolvem problemas diferentes. <br>
+    O grid te dá controle em todos os eixos e o FlexBox, apenas no total de itens por linha.</p>
+
   </body>
 </html>
