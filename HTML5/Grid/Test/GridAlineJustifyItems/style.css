@@ -1,0 +1,70 @@
+
+/*  Estilo Geral */
+
+body{
+    font-family: Arial;
+    margin: 40px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+h2,p{
+    margin: 0px;
+    line-height: 1;
+}
+
+p,span{
+    font-size: 20px;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 7px;
+}
+
+/* Estilo de elementos no Grid */
+
+.item{
+    display: grid; /* Os elementos HTML se tornaram elementos do Grid(GridItens) */
+    gap: 20px;
+    grid-template-columns: 1fr 1fr; /* definindo numero de colunas */
+}
+
+.foto{
+  grid-column: 1/3; /* Para a imagem pegar as duas colunas */
+}
+
+.descricao{
+
+    grid-column: 1/-1;
+    /* Para o a descricao pegar todas as colunas */
+}
+
+/* Estilo de Itens */
+
+.menu a {
+    margin: 7px; 
+}
+
+.preco{
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+    
+}
+
+.comprar{
+    
+    text-decoration: none;
+    color: #103;
+    
+    background: #a8f;
+    padding: 10px 20px;
+    border-radius: 4px;
+    
+    font-size: 20px;
+}
+
