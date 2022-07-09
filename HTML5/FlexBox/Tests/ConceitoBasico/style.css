@@ -1,0 +1,24 @@
+.flex{
+    
+    display: flex;
+    flex-wrap: wrap;/* indica se dever quebrar o elemento em uma nova linha, depois se necessario seu conteudo interno.  */
+    justify-content: space-between;
+    align-content: center;
+    
+    background: chocolate;/* Para ter conhecimento do espaço do elemento */
+    margin: 20px;
+    height: 300px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h2{
+
+    background: #77074c;
+    border: 1px solid #d7d7d7;
+    margin: 10px;
+    padding: 20px;
+}
