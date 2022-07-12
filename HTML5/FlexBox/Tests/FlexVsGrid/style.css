@@ -18,21 +18,17 @@ h2{
     gap: 20px;    
 
     background: chocolate;/* Para ter conhecimento do espaço do elemento */
-    /* margin: 20px; */
-    /* height: 300px; */
 
 }
 
 .grid{
     
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px,auto));
+    grid-template-columns: repeat(auto-fit, minmax(150px,auto));/* defini o tamanho da coluna e de forma automatica */
     margin-top: 60px;
     gap: 20px;    
 
     background: chocolate;/* Para ter conhecimento do espaço do elemento */
-    /* margin: 20px; */
-    /* height: 300px; */
 
 }
 
