@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+    margin: 15px;
+}
+
+h2{
+
+    background: #77074c;
+    border: 1px solid #d7d7d7;
+    margin: 10px;
+    padding: 20px;
+}
+
+.flex{
+    
+    display: flex;
+    flex-wrap: wrap;/* indica se dever quebrar o elemento em uma nova linha, depois se necessario seu conteudo interno.  */
+    gap: 20px;    
+
+    background: chocolate;/* Para ter conhecimento do espaço do elemento */
+    /* margin: 20px; */
+    /* height: 300px; */
+
+}
+
+.grid{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,auto));
+    margin-top: 60px;
+    gap: 20px;    
+
+    background: chocolate;/* Para ter conhecimento do espaço do elemento */
+    /* margin: 20px; */
+    /* height: 300px; */
+
+}
+
