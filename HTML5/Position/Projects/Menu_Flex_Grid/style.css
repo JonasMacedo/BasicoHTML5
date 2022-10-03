@@ -31,6 +31,8 @@ p{
 
 .menu {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -38,7 +40,13 @@ p{
     
     background: darkorange;
     color: black;
+    text-transform: uppercase;
 
     padding: 15px 30px;
     border-radius: 4px;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
