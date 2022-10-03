@@ -68,10 +68,20 @@ p{
 
 .btn_plus{
     
-    background: rgb(216, 40, 24);
-    color: rgba(233, 218, 218, 0.74);
+    background: #d82818;
+    color: #e9dadabd;
     text-transform: uppercase;
 
     border-radius: 4px;
     padding: 15px 30px;
+}
+
+.detalhe{
+    width: 60px;
+    height: 4px;
+    background: #d82818;
+
+    position: absolute; /*Ira respeitar a posicao do elemento PAI.*/
+    top: 30px;
+    right: -25px;
 }
