@@ -1,0 +1,1 @@
+O index.html foi adicionado uma nova "div" para tornar a estilizacao mais simples.

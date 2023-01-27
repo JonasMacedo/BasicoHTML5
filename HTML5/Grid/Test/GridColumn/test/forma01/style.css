@@ -1,0 +1,93 @@
+
+/* Estilizacao geral */
+
+body{
+    font-family: arial;
+    margin: 40px;
+}
+
+h1,p{
+    margin: 0px;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 1;
+}
+
+p,span{
+    font-size: 20px;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.comprar{
+    display: inline-block;
+    text-decoration: none;
+    
+    background: #a8f;
+    color: #103;
+    
+    padding: 10px 20px;
+    border-radius: 4px;
+    
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Estilizacao do Grid */
+
+.grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.preco{
+    background: #e89e00;
+    color:black;
+    
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/* Alinhando e Justificando */
+
+.titulo{
+    text-align: center; /* alinhado texto do conteudo */
+}
+
+.preco{
+    /*alinhado o item dentro do seu bloco*/
+    align-self: start;
+    justify-self: start;
+    /*place-self: end end; alinhando em uma unica linha.*/
+}
+
+.comprar{
+    align-self: center;
+    grid-column: 2;
+}
+
+.descricao{
+    text-align: center;
+}
+
+/* Estilizacao de linhas */
+
+.grid{
+    grid-template-rows: repeat(3,auto) 1fr;    
+}
+
+.titulo{
+    grid-column: 1/-1;
+}
+
+.foto{
+    /* grid-column: 1/-1; */
+    grid-row: 2/5;
+}
+
