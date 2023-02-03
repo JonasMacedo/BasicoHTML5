@@ -1,0 +1,51 @@
+
+/* pagina Index */
+
+.flex{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.flex, a{
+    text-decoration: none;
+}
+
+h2{
+    margin: 0px;
+    padding: 5px;
+    
+    border: 1px solid #ffbf3c;
+    background-color:  #ffbf3c;
+    color: black;
+    
+}
+
+.card, .card_flex{
+    display: inline-block;
+    border: 2.7px solid #ffbf3c;
+    margin: 10px;
+    padding: 10px;
+}
+
+.links > a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-left: 2.5rem;
+}
+
+.card_flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.card_flex > h3{
+    display: inline-flex;
+    grid-column: 1/-1;
+    place-content: center;
+    
+    padding: 5px;
+    margin: 0px;
+}
