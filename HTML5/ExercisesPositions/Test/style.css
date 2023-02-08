@@ -1,0 +1,56 @@
+
+body{
+    background: #f7f7f7;
+    color: #c6c6c6;
+    font-family: arial;
+    max-height: 1000px;
+}
+
+a{
+    margin: 5px;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 20px;
+    color: black;
+    
+    border-radius:4px;
+    padding: 0px 10px;
+    background: #c6c6c6;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    max-width: 550px;
+    height: 520px;
+}
+
+.menu{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.foto{
+    grid-area: 2/2;
+}
+
+.info{
+    display: grid;
+    grid-row: 1/5;
+}
+
+.btn{
+    place-self: center end;
+    padding: 5px 80px;
+}
