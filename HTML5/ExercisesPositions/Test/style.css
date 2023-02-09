@@ -1,6 +1,6 @@
 
 body{
-    background: #181a1b;
+    background: #7b7b7b;
     color: darkorange;
     font-family: arial;
     font-size: 20px;
@@ -27,7 +27,7 @@ h1{
     text-align: center;
 }
 
-p,h1,h2,h3{
+p,h1,h2{
     margin: 0px;
 }
 
@@ -43,25 +43,35 @@ img{
 }
 
 .content{
+    background: #181a1b;
     display: grid;
+    
+    padding: 11px;
+    border-radius: 5px;
+    
     grid-template-columns: 1fr 1fr;
     max-width: 1000px;
-}
 
-.foto{
-    grid-area: 2/2;
 }
 
 .info{
     display: grid;
-    grid-row: 1/5;
+    /* position: relative; */
+    text-align: center;
+    gap: 5px;
+    padding-right: 5px;
 }
 
 .btn{
-    place-self: center end;
+    place-self: end;
     padding: 5px 80px;
 }
 
 .card_vantag img{
     max-width: 50px;
+}
+
+.subtitulo{
+    place-self: center;
+    font-size: 62px;
 }
