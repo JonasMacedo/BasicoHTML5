@@ -54,3 +54,18 @@ p{
     grid-template-columns: 1fr 1fr;
     max-width: 1000px;
 }
+
+.intro{
+    background: #ffffff;
+    padding: 40px;
+    text-align: right;
+}
+
+.botao{
+ background: #e21;
+ color: fff;
+ padding: 15px 30px;
+ text-transform: uppercase;
+ border-radius: 4px;
+}
+
