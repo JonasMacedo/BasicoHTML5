@@ -12,7 +12,7 @@ body{
     background: #f7f7f7;
     display: grid;
     gap: 60px;
-    justify-content: center;
+    justify-items: center;
     margin-top: 60px;
 }
 
