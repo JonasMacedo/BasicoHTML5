@@ -85,3 +85,9 @@ p{
  border-radius: 4px;
 }
 
+.subt{
+    font-size: 64px;
+    text-align: right;
+    align-self: center;
+    padding: 40px;
+}
