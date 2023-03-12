@@ -60,6 +60,10 @@ p{
     padding: 40px;
     text-align: right;
     position: relative;
+    display: grid;
+    gap: 15px;
+    align-content: center;
+    justify-items: end;
 }
 
 .detail{
